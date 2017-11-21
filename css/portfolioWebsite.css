@@ -1,0 +1,44 @@
+
+	body {
+		background-color: #e8effc;
+	}
+
+	.portfolio_header {
+    text-align: right;
+		font-weight: bold;
+		font-size: 30px;
+		font-family: Impact;
+	}
+	.portfolio_header_image {
+		float: left;
+		padding-left: 0px;
+		border-width: thick;
+		border-color: black;
+		width:20%;
+		margin-bottom: .25em;
+	}
+
+	.featured_work {
+	font-size: 30px;
+	font-family: Impact;
+	text-align: center;
+	text-decoration: underline;
+	}
+
+	.portfolio_paragraph {
+		text-align: center;
+		font-size: 20px;
+		font-family: Impact;
+	}
+
+	.portfolio_footer {
+		text-align: center;
+		font-size: 15px;
+		font-family: Impact;
+	}
+
+	.menu_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
