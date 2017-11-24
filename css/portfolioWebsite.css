@@ -3,13 +3,16 @@
 		background-color: #e8effc;
 	}
 
-	.portfolio_header {
+
+	.portfolio-header {
     text-align: right;
 		font-weight: bold;
 		font-size: 30px;
 		font-family: Impact;
 	}
-	.portfolio_header_image {
+
+
+	.portfolio-header-image {
 		float: left;
 		padding-left: 0px;
 		border-width: thick;
@@ -18,28 +21,33 @@
 		margin-bottom: .25em;
 	}
 
-	.featured_work {
-	font-size: 30px;
-	font-family: Impact;
-	text-align: center;
-	text-decoration: underline;
+
+	.featured-work {
+		font-size: 30px;
+		font-family: Impact;
+		text-align: center;
+		text-decoration: underline;
 	}
 
-	.portfolio_paragraph {
+
+	.portfolio-paragraph {
 		text-align: center;
 		font-size: 20px;
 		font-family: Impact;
 	}
 
-	.portfolio_footer {
+
+	.portfolio-footer {
 		text-align: center;
 		font-size: 15px;
 		font-family: Impact;
 	}
 
-	.menu_container {
+
+	.menu-container {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		font-family: Impact;
+		max-width: 100%;
+		height: auto
 	}
